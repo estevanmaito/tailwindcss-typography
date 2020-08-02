@@ -84,7 +84,7 @@ module.exports = {
         'figure figcaption': {
           color: defaultTheme.colors.gray[600],
         },
-        code: {
+        ':not(pre) code': {
           color: defaultTheme.colors.gray[900],
           fontWeight: '600',
         },
